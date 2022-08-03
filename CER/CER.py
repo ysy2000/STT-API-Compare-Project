@@ -46,7 +46,7 @@ if __name__ == "__main__":
         for i, row in enumerate(spamreader):
             labels.append(''.join(row))    
 
-    with open('clova.csv', newline='') as csvfile:
+    with open('ETRI.csv', newline='') as csvfile:
         spamreader = csv.reader(csvfile, delimiter = '\n',quotechar = "|")
         for i, row in enumerate(spamreader):
             clovas.append(''.join(row))    
